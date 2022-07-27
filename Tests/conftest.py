@@ -4,11 +4,11 @@ from selenium import webdriver
 
 @pytest.fixture(scope='class', autouse=True)
 def setup(request, browser):
-    if browser.lower() == 'chrome':
+    if browser == 'chrome':
         driver = webdriver.Chrome()
-    elif browser.lower() == 'ff':
+    elif browser == 'ff':
         driver = webdriver.Firefox()
-    elif browser.lower() == 'ie':
+    elif browser == 'ie':
         driver = webdriver.Ie()
     else:
         driver = webdriver.Chrome()

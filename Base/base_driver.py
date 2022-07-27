@@ -33,3 +33,9 @@ class BaseDriver:
         wait = WebDriverWait(driver=self.driver, timeout=60, poll_frequency=2)
         element = wait.until(EC.presence_of_element_located((locator_type, locator)))
         return element
+
+    def wait_for_presence_of_alert(self):
+        """Wait for the Javascript ALERT to be present"""
+        wait = WebDriverWait(driver=self.driver, timeout=60, poll_frequency=2)
+        element = wait.until(EC.alert_is_present())
+        return element
