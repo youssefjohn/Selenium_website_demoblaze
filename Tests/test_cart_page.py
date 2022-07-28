@@ -19,4 +19,4 @@ class TestCartPage:
             self.hp.click_on_products()
             self.pp.click_add_to_cart_btn()
         self.cp.click_on_cart_page()
-        assert self.cp.match_product_index_and_delete_button()
+        assert self.cp.finish_transaction(name="Apperio", credit_card="Apperio card")
