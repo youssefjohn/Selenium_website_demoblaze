@@ -1,0 +1,64 @@
+1659046962413	geckodriver	INFO	Listening on 127.0.0.1:50720
+1659046965503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofilebcT5fX"
+1659046966127	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50721
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofilebcT5fX\\search.json.mozlz4", (void 0)))
+1659046968131	Marionette	INFO	Listening on port 50744
+Read port: 50744
+DevTools listening on ws://localhost:50721/devtools/browser/cbfd334d-671f-4bdb-bd00-ff6a2314d963
+1659046968184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659046972550	Marionette	INFO	Stopped listening on port 50744
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1659046973349	geckodriver	INFO	Listening on 127.0.0.1:50774
+1659046976411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofilema8it8"
+1659046976753	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50775
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofilema8it8\\search.json.mozlz4", (void 0)))
+1659046978329	Marionette	INFO	Listening on port 50800
+DevTools listening on ws://localhost:50775/devtools/browser/9a058174-45d4-41bc-a83b-db2aa3fd529a
+Read port: 50800
+1659046978406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+1659046982532	Marionette	INFO	Stopped listening on port 50800
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 29184, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1659046983195	geckodriver	INFO	Listening on 127.0.0.1:50826
+1659046986255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofileXycznQ"
+1659046986586	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50827
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Foundry\\AppData\\Local\\Temp\\rust_mozprofileXycznQ\\search.json.mozlz4", (void 0)))
+1659046988129	Marionette	INFO	Listening on port 50851
+DevTools listening on ws://localhost:50827/devtools/browser/c951709b-0c55-42eb-8f50-0febec652bb5
+Read port: 50851
+1659046988255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.demoblaze.com"
+1659047002539	Marionette	INFO	Stopped listening on port 50851
+[Parent 36828, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

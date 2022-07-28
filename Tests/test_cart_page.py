@@ -13,7 +13,6 @@ class TestCartPage:
         self.hp = HomePage(driver=self.driver)
         self.pp = ProductPage(driver=self.driver)
 
-
     def test_remove_lowest_price(self):
         for _ in range(3):
             self.hp.click_on_products()

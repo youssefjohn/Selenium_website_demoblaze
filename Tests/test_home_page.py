@@ -1,6 +1,7 @@
 import pytest
 from Pages.home_page import HomePage
 
+
 @pytest.mark.usefixtures("setup")
 class TestHomePage:
 
@@ -13,11 +14,9 @@ class TestHomePage:
         assert self.hp.signup_outcome(name=self.hp.random_word_generator(),
                                password=self.hp.random_word_generator())
 
-
     @pytest.mark.run(order=2)
     def test_number_of_products_available(self):
         assert self.hp.confirm_num_of_products_on_homepage(9)
-
 
     @pytest.mark.run(order=3)
     def test_click_on_product(self):

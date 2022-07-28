@@ -22,6 +22,7 @@ def setup(request, browser):
     driver.close()
     print("Running Class level Teardown")
 
+
 def pytest_addoption(parser):
     parser.addoption("--browser")
 
