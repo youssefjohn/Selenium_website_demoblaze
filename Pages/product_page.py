@@ -4,7 +4,6 @@ from selenium.common.exceptions import *
 from Utilities.utils import custom_logger
 import logging
 
-
 class ProductPage(BaseDriver):
     log = custom_logger(logLevel=logging.INFO)
 
